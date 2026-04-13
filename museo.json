@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Museo del Oro",
+    "tipo": "museo",
+    "descripcion": "Orfebrería prehispánica.",
+    "imagen": "https://picsum.photos/id/101/300/200"
+  },
+  {
+    "id": 2,
+    "nombre": "Museo Botero",
+    "tipo": "museo",
+    "descripcion": "Arte moderno y donaciones.",
+    "imagen": "https://picsum.photos/id/102/300/200"
+  },
+  {
+    "id": 3,
+    "nombre": "La Violencia - Obregón",
+    "tipo": "obra",
+    "descripcion": "Obra icónica de Alejandro Obregón (1962).",
+    "imagen": "https://picsum.photos/id/201/300/200"
+  },
+  {
+    "id": 4,
+    "nombre": "Monalisa - Botero",
+    "tipo": "obra",
+    "descripcion": "Interpretación del maestro Fernando Botero.",
+    "imagen": "https://picsum.photos/id/202/300/200"
+  }
+]
