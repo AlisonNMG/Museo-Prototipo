@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "tipo": "museo",
+    "nombre": "Museo del Oro",
+    "autor": "Banco de la Republica",
+    "desc": "La coleccion de orfebreria prehispanica mas grande del mundo.",
+    "img": "https://cdn.colombia.com/sdi/2013/11/27/museo-del-oro-1141863.jpg"
+  },
+  {
+    "id": 2,
+    "tipo": "museo",
+    "nombre": "Museo Botero",
+    "autor": "Fernando Botero",
+    "desc": "Coleccion de arte con obras de Botero, Picasso, Dali y mas.",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/21/8b/a4/photo0jpg.jpg?w=900&h=500&s=1"
+  },
+  {
+    "id": 3,
+    "tipo": "museo",
+    "nombre": "Museo Nacional",
+    "autor": "MinCultura",
+    "desc": "El museo mas antiguo de Colombia, ubicado en una antigua penitenciaria.",
+    "img": "https://bogota.gov.co/sites/default/files/2025-01/museo-nacional-programa-de-formacion-1.jpg"
+  },
+  {
+    "id": 4,
+    "tipo": "museo",
+    "nombre": "MAMBO",
+    "autor": "Rogelio Salmona",
+    "desc": "Espacio dedicado a las artes plasticas modernas y contemporaneas.",
+    "img": "https://www.mambogota.com/wp-content/uploads/2024/07/mambo-fachada-1-min-scaled.jpg"
+  },
+  {
+    "id": 5,
+    "tipo": "museo",
+    "nombre": "Museo de la Independencia",
+    "autor": "Guillermo Hernandez de Alba y Luis Morales Gomez",
+    "desc": "Creado con el objetivo de conmemorar los 150 anos del grito de independencia",
+    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/EP7FHVXB65GRXMWPEME3GGQICQ.jpeg"
+  },
+  {
+    "id": 6,
+    "tipo": "obra",
+    "nombre": "Violencia",
+    "autor": "Alejandro Obregon",
+    "desc": "Obra maestra que simboliza el conflicto armado en Colombia.",
+    "img": "https://lanuevabagatela.com/wp-content/uploads/2020/04/Alejandro-obrego%CC%81n-violencia-Detalle-928x580.png"
+  },
+  {
+    "id": 7,
+    "tipo": "obra",
+    "nombre": "Mona lisa",
+    "autor": "Fernando Botero",
+    "desc": "La famosa version de la Gioconda de Leonardo da Vinci.",
+    "img": "https://www.singulart.com/blog/wp-content/uploads/2024/02/Mona-Lisa-Age-Twelve-1-scaled.jpg"
+  },
+  {
+    "id": 8,
+    "tipo": "obra",
+    "nombre": "The red dream",
+    "autor": "Guillermo Wiedemann",
+    "desc": "Muestra claramente lo que es el expresionismo abstracto",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMkCqM1uI4iHWnGJT2PC0OnpdgwojptF7Upz6jlOsO2TiYfME2_8Vhz06LQTPpO40kdV5g8fOAlnsQWahtGnI8IneKi3U0UOjll6J0-Yj_x6l5zu5R7GpSj9NXHidDbMEP8XmLU5HFjgz3/s1600/the+red+dream.jpg"
+  },
+  {
+    "id": 9,
+    "tipo": "obra",
+    "nombre": "Balsa Muisca",
+    "autor": "Cultura Muisca",
+    "desc": "Pieza de oro que representa la ceremonia de El Dorado.",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/99/Gold_Museum%2C_Bogota_%2836145671394%29.jpg"
+  },
+  {
+    "id": 10,
+    "tipo": "obra",
+    "nombre": "Crisalida de Arrebol",
+    "autor": "Omar Rayo",
+    "desc": "Caracterizada por formas geometricas, lineas limpias y colores vibrantes (rojos, naranjas, rosados) que evocan los atardeceres del Valle del Cauca",
+    "img": "https://fundacioncorazonverde.org/wp-content/uploads/2021/05/min-016.png"
+  },
+  {
+    "id": 11,
+    "tipo": "obra",
+    "nombre": "Las monjas y el cardenal",
+    "autor": "Debora Arango",
+    "desc": "La obra muestra a monjas vestidas de azul con expresiones intensas en torno a una jaula que contiene un ave cardenal roja, simbolizando la represion de la pasion y la libertad bajo el orden religioso",
+    "img": "https://www.elmamm.org/content/uploads/2024/11/img-las-monjas-y-el-cardenal-y-o-el-recreo-VSDyd8.jpg"
+  }
+]
