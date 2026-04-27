@@ -14,33 +14,33 @@ const Modal = ({ item, onClose, onNext, onPrev }) => {
           onClick={onClose}
         >
           <motion.div 
-            initial={{ scale: 0.8, opacity: 0, y: 50 }}
-            animate={{ scale: 1, opacity: 1, y: 0 }}
-            exit={{ scale: 0.8, opacity: 0, y: 50 }}
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            exit={{ scale: 0.8, opacity: 0 }}
             className="modal-content-custom text-center position-relative" 
             onClick={e => e.stopPropagation()}
           >
             <span className="close-btn" onClick={onClose}>&times;</span>
             
-            <div className="d-flex align-items-center justify-content-between mb-3">
+            <div className="d-flex align-items-center justify-content-between gap-2 mb-3">
               <motion.button 
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="btn btn-dark rounded-circle border-0 shadow-sm"
+                className="btn btn-dark rounded-circle border-0 shadow-sm d-none d-md-flex align-items-center justify-content-center"
                 onClick={onPrev}
-                style={{ width: '45px', height: '45px', zIndex: 10 }}
+                style={{ width: '40px', height: '40px', minWidth: '40px' }}
               >
                 &#10094;
               </motion.button>
 
-              <div className="px-3" style={{ flex: 1 }}>
+              <div className="flex-grow-1 overflow-hidden">
                 <motion.img 
                   key={item.img}
-                  initial={{ opacity: 0, x: 50 }}
-                  animate={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
                   src={item.img} 
                   alt={item.nombre} 
-                  className="img-fluid rounded shadow-sm" 
+                  className="img-fluid rounded shadow-sm w-100" 
                   style={{ maxHeight: '400px', objectFit: 'contain' }} 
                 />
               </div>
@@ -48,19 +48,24 @@ const Modal = ({ item, onClose, onNext, onPrev }) => {
               <motion.button 
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="btn btn-dark rounded-circle border-0 shadow-sm"
+                className="btn btn-dark rounded-circle border-0 shadow-sm d-none d-md-flex align-items-center justify-content-center"
                 onClick={onNext}
-                style={{ width: '45px', height: '45px', zIndex: 10 }}
+                style={{ width: '40px', height: '40px', minWidth: '40px' }}
               >
                 &#10095;
               </motion.button>
             </div>
 
+            {/* Controles móviles (solo visibles en pantallas pequeñas) */}
+            <div className="d-flex d-md-none justify-content-center gap-4 mb-3">
+              <button className="btn btn-outline-dark btn-sm rounded-pill px-3" onClick={onPrev}>&#10094; Anterior</button>
+              <button className="btn btn-outline-dark btn-sm rounded-pill px-3" onClick={onNext}>Siguiente &#10095;</button>
+            </div>
+
             <motion.div
               key={item.id}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
             >
               <h2 id="tituloModal" className="h3 mb-1">{item.nombre}</h2>
               <span className={`badge mb-3 ${item.tipo === 'obra' ? 'bg-primary' : 'bg-success'}`}>
