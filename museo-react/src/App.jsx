@@ -40,6 +40,18 @@ function App() {
     return false;
   });
 
+  const handleNext = () => {
+    const currentIndex = filteredItems.findIndex(i => i.id === selectedItem.id);
+    const nextIndex = (currentIndex + 1) % filteredItems.length;
+    setSelectedItem(filteredItems[nextIndex]);
+  };
+
+  const handlePrev = () => {
+    const currentIndex = filteredItems.findIndex(i => i.id === selectedItem.id);
+    const prevIndex = (currentIndex - 1 + filteredItems.length) % filteredItems.length;
+    setSelectedItem(filteredItems[prevIndex]);
+  };
+
   return (
     <div className="App">
       <Navbar 
@@ -67,6 +79,8 @@ function App() {
       <Modal 
         item={selectedItem} 
         onClose={() => setSelectedItem(null)} 
+        onNext={handleNext}
+        onPrev={handlePrev}
       />
     </div>
   );
